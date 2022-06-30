@@ -1,0 +1,20 @@
+.benefits__list {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  counter-reset: count 0;
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .benefits__list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .benefits__list {
+    justify-content: flex-start;
+    gap: unset;
+  }
+}

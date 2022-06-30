@@ -1,0 +1,30 @@
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2.5rem;
+  height: 6.8rem;
+  width: 6.8rem;
+  background-color: #15A9CB;
+  border-radius: 4rem;
+  padding: 1.6rem 0.9rem;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .logo {
+    font-size: 2.2rem;
+    line-height: 3.9rem;
+    height: 6rem;
+    width: 6rem;
+    padding: 0.8rem 0.9rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .logo {
+    height: 6rem;
+    width: 6rem;
+    font-size: 2.2rem;
+    line-height: 3.8rem;
+    padding: 0.6rem 0.7rem;
+  }
+}

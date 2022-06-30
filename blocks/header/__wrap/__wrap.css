@@ -1,0 +1,28 @@
+.header__wrap {
+  position: relative;
+  padding: 4rem 0 12rem;
+  background: url("../img/header-bg-desctop.jpg") no-repeat center / cover;
+}
+
+.header__wrap::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(47, 50, 75, 0.85);
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .header__wrap {
+    padding: 2.6rem 0 7rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .header__wrap {
+    padding: 3rem 0 13rem;
+  }
+}

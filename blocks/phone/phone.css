@@ -1,0 +1,8 @@
+@import "__img/__img.css";
+@import "__number/__number.css";
+
+.phone {
+  display: flex;
+  flex-direction: column;
+}
+

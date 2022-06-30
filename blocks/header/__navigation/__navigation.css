@@ -1,0 +1,19 @@
+.header__navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12rem;
+  align-items: center;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .header__navigation {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .header__navigation {
+    margin-bottom: 13rem;
+  }
+}

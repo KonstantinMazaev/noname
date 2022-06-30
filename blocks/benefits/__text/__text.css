@@ -1,0 +1,20 @@
+.benefits__text {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .benefits__text {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .benefits__text {
+    font-size: 3.6rem;
+    line-height: 5rem;
+    padding: 0 10rem;
+  }
+}

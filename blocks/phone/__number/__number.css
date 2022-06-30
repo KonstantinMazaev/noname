@@ -1,0 +1,22 @@
+.phone__number {
+  font-weight: 400;
+  font-size: 2.3rem;
+  line-height: 2.8rem;
+  margin-bottom: .5rem;
+  letter-spacing: .04rem;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .phone__number {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.4rem;
+    letter-spacing: .01rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .phone__number {
+    display: none;
+  }
+}

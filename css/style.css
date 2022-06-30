@@ -1,0 +1,12 @@
+@import "normalize.css";
+@import "settings.css";
+@import "var.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/phone/phone.css";
+@import "../blocks/logo/logo.css";
+@import "../blocks/button/button-call-me.css";
+@import "../blocks/button/button-more.css";
+@import "../blocks/benefits/benefits.css";
+@import "../blocks/slider/slider.css";
+

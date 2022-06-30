@@ -1,0 +1,30 @@
+.benefits__title {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 4.1rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .benefits__title {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    margin-bottom: 2.3rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .benefits__title {
+    font-size: 4rem;
+    line-height: 4.6rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .benefits__title {
+    font-size: 4rem;
+    line-height: 4.6rem;
+    margin-bottom: 3rem;
+  }
+}

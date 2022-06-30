@@ -1,0 +1,25 @@
+.benefits__img {
+  margin-bottom: 1rem;
+  width: 12.2rem;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .benefits__img {
+    width: 10.4rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .benefits__img {
+    width: 20.8rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .benefits__img {
+    width: 21.1rem;
+    margin-bottom: 5rem;
+
+  }
+}

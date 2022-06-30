@@ -1,0 +1,50 @@
+.benefits__item {
+  position: relative;
+  flex-basis: 19.6rem;
+}
+
+.benefits__item::after {
+  content: counter(count);
+  position: absolute;
+  top: 3.5rem;
+  right: 8.2rem;
+  font-weight: 500;
+  font-size: 5.7rem;
+  line-height: 100%;
+  color: #FFFFFF;
+  counter-increment: count;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .benefits__item::after {
+    top: 2.5rem;
+    right: 8.2rem;
+  }
+}
+
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .benefits__item {
+    flex-basis: 32rem;
+  }
+
+  .benefits__item::after {
+    top: 3.5rem;
+    right: 13rem;
+    font-size: 10.4rem;
+    line-height: 14.6rem;
+  }
+}
+
+
+@media (max-width: 47.9375em) {
+  .benefits__item {
+    flex-basis: 58rem;
+  }
+
+  .benefits__item::after {
+    top: 3.5rem;
+    right: 26rem;
+    font-size: 10.4rem;
+    line-height: 14.6rem;
+  }
+}

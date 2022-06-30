@@ -1,0 +1,5 @@
+@import "__wrap/__wrap.css";
+@import "__navigation/__navigation.css";
+@import "__content/__content.css";
+@import "__title/__title.css";
+@import "__description/__description.css";
