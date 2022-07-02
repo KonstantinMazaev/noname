@@ -1,0 +1,31 @@
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem 0;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .footer__wrap {
+
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .footer__wrap {
+    flex-wrap: wrap;
+    row-gap: 5rem;
+  }
+
+  .footer__wrap::after {
+    position: absolute;
+    display: block;
+    content: "";
+    right: 0;
+    bottom: -9.4rem;
+    left: 0;
+    height: 9.4rem;
+    background-color: #2A2C3F;
+  }
+
+}

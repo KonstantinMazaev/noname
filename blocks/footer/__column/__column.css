@@ -1,0 +1,24 @@
+.footer__column {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .footer__column {
+
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .footer__column:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    bottom: -7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    flex: 0 0 auto;
+    width: 35rem;
+    z-index: 1;
+  }
+}

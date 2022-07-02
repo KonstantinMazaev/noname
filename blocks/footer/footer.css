@@ -1,0 +1,9 @@
+@import "__column/__column.css";
+@import "__wrap/__wrap.css";
+@import "__copyright/__copyright.css";
+@import "__made/__made.css";
+
+.footer {
+  position: relative;
+  background-color: #2F324B;
+}

@@ -1,0 +1,19 @@
+.footer__made {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .footer__made {
+
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .footer__made {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+  }
+}

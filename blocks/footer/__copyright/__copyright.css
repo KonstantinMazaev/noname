@@ -1,0 +1,22 @@
+.footer__copyright {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.footer__copyright span {
+  display: block;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .footer__copyright {
+
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .footer__copyright {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+}

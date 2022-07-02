@@ -15,7 +15,6 @@
   background-color: rgba(47, 50, 75, 0.85);
 }
 
-
 @media (min-width: 64em) and (max-width: 99.9375em) {
   .feedback__wrap {
     padding: 7rem 0 5.6rem;
