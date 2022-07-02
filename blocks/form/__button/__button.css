@@ -1,0 +1,19 @@
+.form__button {
+  background: #15A9CB;
+  box-shadow: 0 .4rem 2.5rem rgba(21, 169, 203, 0.3);
+  border: none;
+  border-radius: 5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: #FFFFFF;
+  padding: 1.1rem 3.8rem;
+}
+
+@media (max-width: 63.9375em) {
+  .form__button {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    padding: 2rem 5.2rem;
+  }
+}

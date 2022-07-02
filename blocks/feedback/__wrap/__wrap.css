@@ -1,7 +1,7 @@
 .feedback__wrap {
   position: relative;
-  height: 62.1rem;
   background: url("../img/feedback-bg.jpg") no-repeat center / cover;
+  padding: 7rem 0;
 }
 
 .feedback__wrap::before {
@@ -13,4 +13,17 @@
   height: 100%;
   width: 100%;
   background-color: rgba(47, 50, 75, 0.85);
+}
+
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .feedback__wrap {
+    padding: 7rem 0 5.6rem;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .feedback__wrap {
+    padding: 6rem 0;
+  }
 }

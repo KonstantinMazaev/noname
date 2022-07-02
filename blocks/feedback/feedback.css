@@ -1,2 +1,9 @@
 @import "__wrap/__wrap.css";
+@import "__content/__content.css";
+@import "__policy/__policy.css";
+@import "__title/__title.css";
+@import "__subtitle/__subtitle.css";
 
+.feedback {
+  margin-bottom: 100rem;
+}
