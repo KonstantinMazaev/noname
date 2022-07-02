@@ -7,13 +7,21 @@
   font-size: 2rem;
   line-height: 2.3rem;
   color: #FFFFFF;
-  padding: 1.1rem 3.8rem;
+  padding: 1.1rem 3.8rem 1.2rem;
+  text-transform: lowercase;
+}
+
+@media (min-width: 64em) and (max-width: 99.9375em) {
+  .form__button {
+    padding: 1.1rem 3.8rem 1.4rem;
+  }
 }
 
 @media (max-width: 63.9375em) {
   .form__button {
     font-size: 3.2rem;
     line-height: 3.8rem;
-    padding: 2rem 5.2rem;
+    padding: 2rem 5.6rem;
+    text-transform: none;
   }
 }

@@ -27,8 +27,8 @@
   }
 
   .button-call-me::after {
-    left: 24%;
-    width: 52%;
+    left: 22%;
+    width: 56%;
     bottom: -.3rem;
   }
 }

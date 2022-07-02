@@ -22,6 +22,14 @@
   width: 9rem !important;
 }
 
+.swiper-button-next {
+  right: -4px !important;
+}
+
+.swiper-button-prev {
+  left: -4px !important;
+}
+
 .swiper-button-next::after {
   content: "" !important;
   background: #FFFFFF url("../benefits/img/arrow.svg") no-repeat center;

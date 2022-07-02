@@ -8,8 +8,20 @@
 @import "__text/__text.css";
 
 .benefits {
-  padding: 7rem 0 12.5rem;
+  padding: 7rem 0 7.4rem;
   background-color: #F9F9F9;
   color: #383A4C;
   text-align: center;
+}
+
+@media (max-width: 47.9375em) {
+  .benefits {
+    padding: 6.1rem 0 7.4rem;
+  }
+}
+
+@media (max-width: 47.9375em) {
+  .benefits {
+    padding: 6.1rem 0 12.6rem;
+  }
 }

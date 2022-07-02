@@ -6,6 +6,7 @@
 @media (min-width: 64em) and (max-width: 99.9375em) {
   .benefits__img {
     width: 10.4rem;
+    margin-bottom: 2rem;
   }
 }
 
